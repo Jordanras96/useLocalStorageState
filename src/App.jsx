@@ -1,14 +1,5 @@
 import { useEffect, useState } from "react";
-// import Navbar from "./components/navbar";
 
-// const useLocalStorageState = (initialValue, key) => {
-//   const [state, setState] = useState(initialValue);
-
-//   useEffect(() => {
-//     localStorage.setItem(key, state);
-//   }, [state, key]);
-//   return [state, setState];
-// };
 
 function useLocalStorageState(initialValue, key) {
   const [state, setState] = useState(initialValue);
